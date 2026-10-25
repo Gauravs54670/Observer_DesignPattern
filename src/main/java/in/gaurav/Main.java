@@ -12,6 +12,9 @@ public class Main {
 
         channel.uploadVideo("Spring-Boot video-4");
 
+        channel.removeSubscriber(s1);
+
+        channel.uploadVideo("Spring-Boot video-5");
 
     }
 }
